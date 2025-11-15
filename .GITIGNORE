@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# FAISS index (optional: don't push large binary data)
+data/faiss_index/
+
+# Raw documents / processed docs (optional)
+data/raw_docs/
+data/processed_docs.json
